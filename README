@@ -1,0 +1,17 @@
+Document root is located in /web.
+
+Import user.sql into you database
+
+Includes:
+
+  head.js - to load javascript.
+
+  foundation 5 - for responsive grid system and styling
+
+  jQuery - dom manipulation and ajax requests
+
+  SASS 
+
+
+
+
