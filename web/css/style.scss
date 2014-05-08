@@ -1,0 +1,116 @@
+@import "foundation/normalize";
+@import "foundation/settings";
+@import "foundation/foundation";
+
+// Or selectively include components
+// @import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+//   "foundation/components/button-groups",
+//   "foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+//   "foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switch",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+//   "foundation/components/type",
+//   "foundation/components/offcanvas",
+//   "foundation/components/visibility";
+
+.main-nav-wrapper {
+  border-bottom: 4px solid #008cba;
+
+  .sub-nav {
+    margin-top: 20px;
+
+  }
+
+  input.error {
+    border-color:#f00;
+  }
+
+  .welcome-user {
+    margin-top: 18px;
+    .welcome-user-text {
+      line-height: 30px;
+    }
+  }
+}
+
+.button.logout {
+    a {
+      color:#fff;
+    }
+}
+
+.left-off-canvas-menu {
+  label {
+    color:#fff;
+  }
+
+  ul {
+    margin-left: 0px;
+  }
+
+  .sub-nav {
+
+    dt, dd {
+      color:#fff;
+
+      a {
+        color:#fff;
+      }
+    }
+  }
+
+  .welcome-user { color:#fff; }
+
+
+  .spacer {
+    border-bottom: 4px solid #008cba;
+    margin-bottom: 20px;
+  }
+
+
+}
+
+.member-table {
+  table {
+    margin: 20px auto;
+  }
+}
+
+p.error {  color:#f00; }
+
+footer{
+	color:#fff;
+	padding-top:20px;
+    padding-bottom:20px;
+	text-align:center;
+	background: #008cba;
+	clear:both;
+    line-height: 20px;
+}
